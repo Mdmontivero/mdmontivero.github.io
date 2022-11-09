@@ -3,8 +3,9 @@ body {background: url(../img/fondo.jpeg)}
 body{text-align: center}
 
 
+
 h1.titulo {color:brown;}
-h1.titulo{ font-size: 50px;}
+
 h1.titulo{font-family: cursive;}
 
 /* marcos del formulario*/
@@ -12,16 +13,9 @@ h1.titulo{font-family: cursive;}
 
 
 .contenedor_formulario{border: 20px #00870f solid;
-                       width: 400px;
-                       height: 700px;
-                       display: flex;}
-.contenedor_formulario{
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-a{font-size: 20px;}
+                       border-radius: 40px;
+                       width: 28%;
+                       margin: 0 auto;
+                       background: #ccff66;
+                       font-weight: bold
+                       }
