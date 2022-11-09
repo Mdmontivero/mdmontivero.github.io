@@ -4,6 +4,7 @@ body{text-align: center}
 
 
 
+
 h1.titulo {color:brown;}
 
 h1.titulo{font-family: cursive;}
@@ -12,10 +13,14 @@ h1.titulo{font-family: cursive;}
 
 
 
-.contenedor_formulario{border: 20px #00870f solid;
+.contenedor_formulario{display: flex ;
+                       border: 20px #00870f solid;
                        border-radius: 40px;
-                       width: 28%;
+                       width: 35%;
                        margin: 0 auto;
                        background: #ccff66;
-                       font-weight: bold
-                       }
+                       font-weight: bold;
+                       width: 350px;
+                       height: 650px}
+                       
+                       
